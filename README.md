@@ -1,11 +1,7 @@
 # README
 
-The code in this repo is intended to accompany the tutorial originally published on [my blog](https://www.colby.so/posts/user-notifications-with-rails-noticed-and-hotwire). It demonstrates a basic implementation of real-time user notifications in a Ruby on Rails application, powered by Turbo Streams and [Noticed](https://github.com/excid3/noticed).
+This is the result of following the tutorial: "User notifications with Rails, Noticed, and Hotwire", published on [colby.so](https://www.colby.so/posts/user-notifications-with-rails-noticed-and-hotwire). 
 
-Begin in the `main` branch which contains a Rails 7 app with Turbo, Devise, and Tailwind installed, and then check the completed code in the `notifications` branch.
+Warning: This needs a Redis server. (Noticed gem, Turbo, Devise gem and Redis server (for ActionCable))
 
-To run this application locally, clone the repo and then:
-```
-cd user-notices
-bin/setup
-```
+♥
